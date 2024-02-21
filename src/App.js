@@ -17,7 +17,7 @@ import './App.css';
 
 
 function App() {
-  const ticker = "$BREDDOG";
+  const ticker = "$BRADDOG";
   const contract = "TBA"
   const [loading, setLoading] = useState(true);
   const [progress, setProgress] = useState(0);
@@ -134,7 +134,7 @@ function App() {
               Ben's Black cousin is an internet-obsessed meme-lord who contends most of his time to the internet.
               </p>
               <h3 className="upcomming">
-                BRED
+                BRAD
               </h3>
             </div>
             <div className="util-item">
@@ -146,7 +146,7 @@ function App() {
               Ben's Black cousin had a fairly normal childhood, where he raised by his two parents inside a medium-sized household.
               </p>
               <h3 className="upcomming">
-                BRED
+                BRAD
               </h3>
             </div>
             <div className="util-item">
@@ -158,7 +158,7 @@ function App() {
               Since then, he has expanded his accounts across multiple platforms, and has reach a total of 600k subscribers.
               </p>
               <h3 className="upcomming">
-                BRED
+                BRAD
               </h3>
             </div>
           </div>
