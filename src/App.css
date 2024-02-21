@@ -1,0 +1,325 @@
+*{
+    color: #fff;
+}
+
+ul li {
+    cursor: pointer;
+}
+
+button {
+    cursor: pointer;
+}
+html {
+    background-color: #000;
+}
+
+.heading {
+    font-family: "Luckiest Guy", cursive;
+    font-size: 120px;
+    line-height: 110px;
+    margin-top: 30px;
+}
+.subheading{
+    font-family: "Luckiest Guy", cursive;
+    font-size: 54px;
+    margin-top: 0px;
+}
+.mainDescription{
+    font-family: "Martel Sans", sans-serif;
+    font-size: 36px;
+    line-height: 43px;
+    margin-top: -80px;
+}
+.description{
+    font-family: "Martel Sans", sans-serif;
+    font-size: 24px;
+    max-width: 700px;
+    margin-top: -30px;
+}
+.description2{
+    font-family: "Martel Sans", sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    max-width: 300px;
+    margin:0 auto;
+    margin-top: -30px;
+}
+.ourSocDesc{
+    padding-top:20px;
+}
+.appDesc{
+    margin: 0 auto;
+    margin-top:-30px;
+}
+.upcomming{
+    font-family: "Luckiest Guy", cursive;
+    font-size: 24px;
+}
+
+.hero {
+    background-image: url('./assets/bg.png');
+    background-position: center;
+    background-size: cover;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:4% 0%}
+    50%{background-position:97% 100%}
+    100%{background-position:4% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:4% 0%}
+    50%{background-position:97% 100%}
+    100%{background-position:4% 0%}
+}
+@keyframes AnimationName {
+    0%{background-position:4% 0%}
+    50%{background-position:97% 100%}
+    100%{background-position:4% 0%}
+}
+.header{
+    margin:0px 240px;
+}
+.header-inside{
+    padding-top:50px;
+    display: flex;
+    justify-content: space-between;
+    font-family: "Martel Sans", sans-serif;
+    font-size: 18px;
+}
+.menu-block{
+    display: flex;
+}
+
+ul li {
+    padding: 0px 25px;
+    display: inline;
+    height: 70px;
+    line-height: 70px;
+    height: 100%;
+}
+a {
+    text-decoration: none; 
+}
+
+.socials-block{
+    display: flex;
+}
+.socials-block-img {
+    margin-left:25px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+
+/*MAIN SECTION*/
+
+.section-inside{
+    margin: 0px 240px;
+    display: flex;
+}
+.gyro {
+    margin-left: -100px;
+    max-width: 800px;
+}
+
+.textBlock{
+    margin-top: 120px;
+    margin-left: 70px;
+}
+
+/*Buttons*/
+
+.buttonBlock{
+    display: flex;
+}
+
+.button{
+    font-family: "Luckiest Guy", cursive;
+    font-size: 24px;
+    padding:15px 35px;
+    padding-top: 20px;
+    border-radius: 30px;
+    margin-right: 30px;
+}
+
+.mainButton{
+    background-color: #A35EFF;
+    border:0;
+}
+.subButton {
+    background-color: rgba(255, 0, 0, 0);
+    border: 3px solid white;
+}
+
+/*ABOUT*/
+
+.about{
+    background-color: #000;
+}
+
+.about-inside {
+    margin: 0px 240px;
+    display: flex;
+}
+.aboutTextBlock{
+    padding-top: 150px;
+}
+.aboutImgBlock{
+    margin-left: 70px;
+    margin-top: 70px;
+}
+.cinema{
+    background: rgb(141, 15, 199);
+    background: linear-gradient(0deg, rgb(128, 15, 199) 0%, rgba(0,0,0,1) 100%);
+    display: flex;
+    padding-top: 100px;
+}
+.cinemaBlock{
+    text-align: center;
+    margin: 0 auto;
+}
+.utilText{
+    padding-top: 50px;
+    text-align: center;
+}
+.giraffeSymb{
+    margin:0px 20px;
+    margin-top: 100px;
+}
+
+.utilities{
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 61%, rgba(128, 15, 199) 100%);
+}
+.utilities-inside{
+    margin:0 220px;
+}
+.items{
+    padding-top: 100px;
+    display: flex;
+    margin:0 auto;
+    padding-bottom:100px;
+}
+.util-item{
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 20px;
+    padding:30px 20px;
+    margin: 0px 30px;
+    min-width: 390px;
+}
+
+.tokenomics{
+    background-color: #050505;
+}
+.tokenomics-inside {
+    margin: 0px 240px;
+    display: flex;
+}
+.tokenText{
+    margin-top: 70px;
+    margin-left: 70px;
+}
+.ourSocials{
+    background-color: #000;
+    text-align: center;
+    padding-top: 100px;
+}
+.ourSocials p {
+    margin:0 auto;
+    margin-top: -50px;
+    line-height: 30px;
+}
+.soc{
+    margin-top:20px;
+}
+.socImg{
+    margin:0px 20px;
+}
+.application {
+    background: linear-gradient(311deg, #000000, #be540d, #303030);
+    background-size: 600% 600%;
+    margin-bottom: 0px;
+    -webkit-animation: AnimationName 16s ease infinite;
+    -moz-animation: AnimationName 16s ease infinite;
+    animation: AnimationName 16s ease infinite;
+    text-align: center;
+    overflow: hidden;
+    height:800px;
+}
+.appImg {
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+
+@media only screen and (max-width: 1590px) {
+    .header {
+        margin: 0px 100px;
+    }
+    .gyro {
+        max-width: 900px;
+        margin-left: -150px;
+    }
+    .description {
+        font-size: 18px;
+        width: 500px;
+    }
+  }
+
+@media only screen and (max-width: 1440px) {
+    .header {
+        margin: 0px 50px;
+    }
+    .line {
+        max-width: 500px;
+    }
+    .heading {
+        font-size: 100px;
+        line-height: 90px;
+    }
+    .mainDescription{
+        padding-top: 20px;
+        font-size: 32px;
+    }
+    .section-inside{
+        margin: 0px 100px;
+        display: flex;
+    }
+    .gyro {
+        max-width: 600px;
+        margin-left: -100px;
+        margin-top: 20px;
+    }
+    .textBlock{
+        margin-top: 80px;
+        margin-left: 50px;
+    }
+    .about-inside {
+        margin: 0px 100px;
+    }
+    .aboutImgBlock img {
+        max-width: 550px;
+        margin-top: 20px;
+    }
+    .giraffeSymb{
+        max-width: 300px;
+        height: 400px;
+    }
+    .cinemaImg {
+        max-width:600px;
+    }
+    .utilities-inside{
+        margin: 0px 50px;
+    }
+    .util-item {
+        min-width: 300px;
+    }
+    .subheading {
+        font-size: 42px;
+    }
+    .tokenomics-inside{
+        margin: 0px 50px;
+    }
+  }
